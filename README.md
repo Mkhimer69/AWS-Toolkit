@@ -1,162 +1,103 @@
 # 🚀 AWS Toolkit
 
-A productivity toolkit built for Amazon Connect user administration workflows.
+<p align="center">
+  <img src="https://img.shields.io/badge/version-3.0-orange?style=flat">
+  <img src="https://img.shields.io/badge/platform-Amazon%20Connect-232F3E?logo=amazonaws&logoColor=white">
+  <img src="https://img.shields.io/badge/engine-Tampermonkey-00485B?style=flat">
+  <img src="https://img.shields.io/badge/language-JavaScript%20ES6%2B-f7df1e?logo=javascript&logoColor=black">
+</p>
 
-AWS Toolkit streamlines repetitive user-management tasks by providing bulk actions, routing profile automation, and agent selection utilities through a lightweight Tampermonkey userscript.
-
----
-
-## ✨ Features
-
-### User Management
-
-- 📥 Add user emails directly from clipboard
-- 📋 View stored user list
-- ✅ Bulk select users
-- ❌ Bulk deselect users
-- 🧹 Clear stored users
-
-### Routing Profile Automation
-
-Apply routing profiles with a single click:
-
-- Driver Chat Focus
-- Driver Default Omnichannel
-- Driver Email Focus
-- Driver Voice Focus
-
-### User Experience
-
-- 🎨 Modern floating interface
-- 🖱️ Draggable panel
-- 💾 Remembers last selected routing profile
-- 🔔 Visual status notifications
-- ⚡ Lightweight and fast
-
----
+> A productivity toolkit for **Amazon Connect user administration** — bulk user
+> management, one-click routing profile automation, and agent selection
+> utilities, packed into a lightweight Tampermonkey userscript.
 
 ## 📸 Preview
 
-![smart-search](https://github.com/Mkhimer69/aws-toolkit/blob/main/screenshots/aws-toolkit-v3.png?raw=true)
+<p align="center"><img src="https://github.com/Mkhimer69/AWS-Toolkit/blob/main/screenshots/aws-toolkit-v3.png?raw=true" width="800" alt="AWS Toolkit v3"></p>
 
----
+## 📥 Installation
 
-## 🛠 Technologies
+**1. Install [Tampermonkey](https://www.tampermonkey.net/)**
 
-- JavaScript (ES6+)
-- Tampermonkey
-- DOM Automation
-- Browser Storage (localStorage)
-- Amazon Connect UI Automation
+📺 [Video guide](screenshots/install-tampermonkey.mp4)
 
----
+**2. Install AWS Toolkit** — open the script link, Tampermonkey detects it automatically:
 
-## 🚀 Installation
+```
+https://raw.githubusercontent.com/Mkhimer69/AWS-Toolkit/main/AWS-Toolkit.user.js
+```
 
-### 1. Install Tampermonkey Extension
+📺 [Install demo](screenshots/install%20AWS%20toolkit.gif)
 
-https://www.tampermonkey.net/
+**3. Click Install** → **4. Refresh Amazon Connect** — the toolkit loads automatically.
 
-See:
-- screenshots/install-tampermonkey.mp4
+🔄 **Auto-updates**: Tampermonkey checks for new versions and offers one-click updates whenever a new version is published.
 
-### 2. Install AWS Toolkit
+## ✨ Features
 
-Open:
+### 👥 User Management
+- 📥 Add user emails directly from clipboard
+- 📋 View stored user list
+- ✅ / ❌ Bulk select & deselect users
+- 🧹 Clear stored users
 
-https://raw.githubusercontent.com/Mkhimer69/aws-toolkit/main/AWS-Toolkit.user.js
+### 🔀 Routing Profile Automation
+One-click profile application:
 
-Tampermonkey will detect the userscript automatically.
+| | | | |
+|---|---|---|---|
+| Driver Chat Focus | Driver Default Omnichannel | Driver Email Focus | Driver Voice Focus |
 
-![AWS](https://github.com/Mkhimer69/aws-toolkit/blob/main/screenshots/install%20AWS%20toolkit.gif?raw=true)
+### 🎨 User Experience
+- Modern floating, draggable panel
+- 💾 Remembers last selected routing profile
+- 🔔 Visual status notifications & desktop notifications for long operations
+- ⚡ Lightweight and fast
 
+## 🎥 Demo Videos
 
-### 3. Install
+| Video | What it shows |
+|---|---|
+| [Install Tampermonkey](screenshots/install-tampermonkey.mp4) | Extension setup from scratch |
+| [AWS Toolkit Demo](screenshots/aws-toolkit-demo.mp4) | Core workflows in action |
+| [Live Bridge Demo](screenshots/live-bridge-demo.mp4) | v3 Live Bridge between pages |
 
-Click **Install**.
+## 🆕 What's New in v3.0
 
-### 4. Refresh Amazon Connect
-
-The toolkit will load automatically.
-
----
-## 🎥 Video Guides
-
-### Install Tampermonkey
-
-See:
-- screenshots/install-tampermonkey.mp4
-
-### AWS Toolkit Demo
-
-See:
-- screenshots/aws-toolkit-demo.mp4
-
-### AWS Toolkit V3 Live bridge
-
-See:
-- screenshots/live-bridge-demo.mp4
-  
-## 🔄 Updates
-
-AWS Toolkit supports automatic updates through Tampermonkey.
-
-When a new version is published:
-
-- Tampermonkey checks for updates automatically
-- Users receive an update notification
-- One-click update installation
-
----
+| Feature | What it does |
+|---|---|
+| ⚡ **Live Bridge System** | Real-time bridge between the Connect Analytics Dashboard and User Administration pages — seamless data sharing |
+| 🎲 **Random Agent Injection** | Pick a routing profile → inject N randomly selected agents into the user stash for bulk actions |
+| 📡 **Analytics Sync** | Agent data syncs between AWS pages automatically — no exports, imports, or copy-paste |
+| 📊 **Progress Tracking** | Visual progress bars & live status for bulk selection tasks |
+| 🔔 **Desktop Notifications** | Browser notifications when long-running operations finish |
+| 🚀 **Performance** | Optimized bulk select/deselect for large user lists |
+| 🎨 **UI Enhancements** | Better status indicators, sync timestamps, improved Live Bridge Picker |
 
 ## 📌 Use Cases
 
-- Agent onboarding
-- Routing profile changes
-- Bulk user administration
-- Operations workflow optimization
-- Contact center administration
+Agent onboarding · routing profile changes · bulk user administration ·
+operations workflow optimization · contact center administration
 
----
-## 🆕 What's New in Version 3.0
+## ⚙️ Requirements
 
+- [Tampermonkey](https://www.tampermonkey.net/) browser extension
+- Amazon Connect account with **user administration permissions**
+- Works on `*.my.connect.aws` / `*.awsapps.com`
 
+## 🛠 Technology
 
-### ⚡ Live Bridge System
-Added a real-time bridge between the Amazon Connect Analytics Dashboard and User Administration pages, enabling seamless data sharing between both environments.
-
-### 🎲 Random Agent Injection
-Select a routing profile and automatically inject a specified number of randomly selected agents directly into the toolkit's user stash for bulk actions.
-
-### 📡 Analytics Synchronization
-Agent data is automatically synchronized between AWS pages without the need for manual exports, imports, or copy-paste operations.
-
-### 📊 Progress Tracking
-Introduced visual progress bars and live status updates for bulk user selection and management tasks.
-
-### 🔔 Desktop Notifications
-Receive browser notifications when long-running operations complete, allowing you to continue working without monitoring the toolkit.
-
-### 🚀 Performance Improvements
-Optimized bulk selection and deselection workflows to reduce delays and improve responsiveness across large user lists.
-
-### 🎨 UI Enhancements
-Enhanced the toolkit interface with better status indicators, synchronization timestamps, and an improved Live Bridge Picker experience.
-
----
-## 👨‍💻 Author
-
-**Fathy Mkhimer**
-
-Lead Real-Time Analyst
-
-GitHub:
-https://github.com/Mkhimer69
-
----
+JavaScript (ES6+) · Tampermonkey · DOM Automation · Browser Storage (localStorage) · Amazon Connect UI Automation
 
 ## ⚠ Disclaimer
 
 This project was created for productivity and workflow automation purposes.
+Always test changes in accordance with your organization's policies and
+change-management procedures.
 
-Always test changes in accordance with your organization's policies and change-management procedures.
+---
+
+<div align="center">
+<b>🚀 AWS Toolkit</b><br><i>Bulk admin work, one click at a time.</i><br><br>
+**Fathy Mkhimer** · Lead Real-Time Analyst · [GitHub](https://github.com/Mkhimer69)
+</div>
