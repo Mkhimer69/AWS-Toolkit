@@ -1,7 +1,7 @@
 # 🚀 AWS Toolkit
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-3.0-orange?style=flat">
+  <img src="https://img.shields.io/badge/version-3.1-orange?style=flat">
   <img src="https://img.shields.io/badge/platform-Amazon%20Connect-232F3E?logo=amazonaws&logoColor=white">
   <img src="https://img.shields.io/badge/engine-Tampermonkey-00485B?style=flat">
   <img src="https://img.shields.io/badge/language-JavaScript%20ES6%2B-f7df1e?logo=javascript&logoColor=black">
@@ -49,7 +49,7 @@ One-click profile application:
 | Driver Chat Focus | Driver Default Omnichannel | Driver Email Focus | Driver Voice Focus |
 
 ### 🎨 User Experience
-- Modern floating, draggable panel
+- Modern floating, draggable panel (`Ctrl+Alt+D` collapses/expands it)
 - 💾 Remembers last selected routing profile
 - 🔔 Visual status notifications & desktop notifications for long operations
 - ⚡ Lightweight and fast
@@ -61,6 +61,12 @@ One-click profile application:
 | [Install Tampermonkey](screenshots/install-tampermonkey.mp4) | Extension setup from scratch |
 | [AWS Toolkit Demo](screenshots/aws-toolkit-demo.mp4) | Core workflows in action |
 | [Live Bridge Demo](screenshots/live-bridge-demo.mp4) | v3 Live Bridge between pages |
+
+## 🆕 What's New in v3.1
+
+| Feature | What it does |
+|---|---|
+| ⌨️ **One suite hotkey** | `Ctrl+Alt+D` collapses/expands the toolkit panel — every tool in the suite uses the same single shortcut |
 
 ## 🆕 What's New in v3.0
 
