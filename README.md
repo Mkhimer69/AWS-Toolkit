@@ -1,4 +1,4 @@
-# 🚀 AWS Toolkit
+<h1 align="center">🚀 AWS Toolkit</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-3.1-orange?style=flat">
@@ -104,6 +104,8 @@ change-management procedures.
 ---
 
 <div align="center">
+
 <b>🚀 AWS Toolkit</b><br><i>Bulk admin work, one click at a time.</i><br><br>
 **Fathy Mkhimer** · Lead Real-Time Analyst · [GitHub](https://github.com/Mkhimer69)
+
 </div>
