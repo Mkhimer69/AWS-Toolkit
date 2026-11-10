@@ -3,6 +3,13 @@
 All notable changes to AWS Toolkit will be documented in this file.
 
 ---
+## v3.1
+
+### Added
+
+- `Ctrl+Alt+D` collapses the whole panel to its title bar and expands it again — the same one shortcut every tool in the suite binds. Matched on `event.code` too, so it still fires on keyboard layouts where Alt changes the produced character
+
+---
 ## v3.0
 
 ### Added

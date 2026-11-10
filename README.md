@@ -21,12 +21,7 @@
 
 📺 [Video guide](screenshots/install-tampermonkey.mp4)
 
-**2. Install AWS Toolkit** — open the script link, Tampermonkey detects it automatically:
-
-```
-https://raw.githubusercontent.com/Mkhimer69/AWS-Toolkit/main/AWS-Toolkit.user.js
-```
-
+**2.  [Install AWS Toolkit](https://github.com/Mkhimer69/AWS-Toolkit/releases/latest/download/AWS-Toolkit.user.js)** — open the script link, Tampermonkey detects it automatically:
 📺 [Install demo](screenshots/install%20AWS%20toolkit.gif)
 
 **3. Click Install** → **4. Refresh Amazon Connect** — the toolkit loads automatically.
